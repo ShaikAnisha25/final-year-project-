@@ -1,0 +1,115 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f7f9fc; /* Light background color */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    background: linear-gradient(to right, #f7f9fc, #e1e8f3); /* Gradient background for the center */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+}
+
+/* Header Section */
+header {
+    background: linear-gradient(to right, #6f42c1, #8e44ad); /* Purple gradient */
+    color: white;
+    padding: 40px 0;
+    font-family: 'Georgia', serif;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 20px;
+}
+
+/* Navbar */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    padding: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+    text-align: center;
+}
+
+nav a {
+    color: #6f42c1;
+    margin: 0 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #6f42c1;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #6f42c1;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+footer a:hover {
+    color: #d1c4e9;
+}
+
+/* Home Page */
+.home-page {
+    padding: 40px;
+    text-align: center;
+}
+
+.home-page h2 {
+    color: #6f42c1;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.home-page p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Centering the Content */
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}

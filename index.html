@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Skin Analysis - Hair Segmentation & Dermoscopic Project</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #3a1c71, #d76d77, #ffaf7b);
+            color: white;
+            text-align: center;
+        }
+
+        /* Header Styles */
+        header {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.3);
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 5px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: #ffaf7b;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .cta-button:hover {
+            background: #d76d77;
+        }
+
+        footer {
+            margin-top: 30px;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>ML Skin Analysis</h1>
+        <p>Your trusted platform for skin care analysis, specializing in hair segmentation removal using dermoscopic images.</p>
+    </header>
+
+    <!-- Navbar Section -->
+    <nav>
+        <a href="/">Home</a>
+        <a href="/upload">Upload Image</a>
+        <a href="/contact">Contact</a>
+        <a href="/register">Register</a>
+       <!-- <a href="/login">Login</a> -->
+
+    </nav>
+
+    <!-- Main Content Section -->
+    <div class="container">
+        <h2>Hair Segmentation & Dermoscopic Analysis</h2>
+        <p>
+            We utilize cutting-edge ML technologies to analyze dermoscopic images for accurate hair segmentation and skin condition detection. Our system assists dermatologists and researchers in detecting hair restoration patterns, analyzing skin conditions, and improving diagnostic results.
+        </p>
+        <p>
+            Our ML-powered approach leverages deep learning techniques to identify and segment hair follicles from dermoscopic images, ensuring high precision and reliability for medical and cosmetic applications.
+        </p>
+
+           </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 AI Skin Analysis. All Rights Reserved.</p>
+        <p>
+            <a href="#">Facebook</a> |
+            <a href="#">Twitter</a> |
+            <a href="#">Instagram</a>
+        </p>
+    </footer>
+</body>
+</html>
